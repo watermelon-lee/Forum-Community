@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cglib:cglib:2.1_3">
+    <CLASSES>
+      <root url="jar:///opt/apache-maven-3.5.3/localRepository/cglib/cglib/2.1_3/cglib-2.1_3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///opt/apache-maven-3.5.3/localRepository/cglib/cglib/2.1_3/cglib-2.1_3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///opt/apache-maven-3.5.3/localRepository/cglib/cglib/2.1_3/cglib-2.1_3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

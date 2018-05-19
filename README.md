@@ -59,7 +59,9 @@ ForumService使用TopicDao,BoardDao,PostDao,UserDao实现了社区的基本功�
 * BoardManageController:社区基本功能,包括发帖,回帖,删帖,置顶精华贴.
 
 ### 数据库设计:
-主键使用自增机制,没有外键.只有_board_manager没有对应的POJO,他对应User与Board多对多关系,从Hibernate映射文件可以看出.
+主键使用自增机制,没有外键.只有_board_manager没有对应的POJO,他对应User与Board多对多关系,从Hibernate映射文件可以看出.  
+![Mysql](./pic/mysql.png)
+
 
 
 

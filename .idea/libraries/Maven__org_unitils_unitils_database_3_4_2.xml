@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.unitils:unitils-database:3.4.2">
+    <CLASSES>
+      <root url="jar:///opt/apache-maven-3.5.3/localRepository/org/unitils/unitils-database/3.4.2/unitils-database-3.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///opt/apache-maven-3.5.3/localRepository/org/unitils/unitils-database/3.4.2/unitils-database-3.4.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///opt/apache-maven-3.5.3/localRepository/org/unitils/unitils-database/3.4.2/unitils-database-3.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

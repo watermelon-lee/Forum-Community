@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.testng:testng:jdk15:5.8">
+    <CLASSES>
+      <root url="jar:///opt/apache-maven-3.5.3/localRepository/org/testng/testng/5.8/testng-5.8-jdk15.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///opt/apache-maven-3.5.3/localRepository/org/testng/testng/5.8/testng-5.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///opt/apache-maven-3.5.3/localRepository/org/testng/testng/5.8/testng-5.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

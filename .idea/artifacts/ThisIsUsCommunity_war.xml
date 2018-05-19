@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="ThisIsUsCommunity:war">
     <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="ThisIsUsCommunity.war">
+    <root id="archive" name="ThisIsUsCommunity-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="ThisIsUsCommunity:war exploded" />
     </root>
   </artifact>

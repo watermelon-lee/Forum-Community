@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: commons-lang:commons-lang:2.2">
+    <CLASSES>
+      <root url="jar:///opt/apache-maven-3.5.3/localRepository/commons-lang/commons-lang/2.2/commons-lang-2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///opt/apache-maven-3.5.3/localRepository/commons-lang/commons-lang/2.2/commons-lang-2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///opt/apache-maven-3.5.3/localRepository/commons-lang/commons-lang/2.2/commons-lang-2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
