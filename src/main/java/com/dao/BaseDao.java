@@ -1,13 +1,19 @@
 package com.dao;
 
+import org.hibernate.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate3.HibernateTemplate;
+import org.springframework.util.Assert;
 
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.List;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import static org.unitils.orm.hibernate.HibernateUnitils.getSession;
 
 public class BaseDao<T> {
     @Autowired
@@ -80,4 +86,47 @@ public class BaseDao<T> {
     }
     //对延迟加载的实体PO进行初始化
 
+    //分页查询函数,使用HQL
+    public Page pageQuery(String hql,int pageNo,int pageSize,Object...params){
+        String countQueryString="select count(*) "+removeSelect(removeOrders(hql));
+        List countList=getHibernateTemplate().find(countQueryString,params);
+        long totalCount=(Long)countList.get(0);
+        if(totalCount<1){
+            return new Page();
+        }
+        //实际查询返回分页对象
+        int startIndex=Page.getStartOfPage(pageNo,pageSize);
+        Query query=createQuery(hql,params);
+        List list=query.setFirstResult(startIndex).setMaxResults(pageSize).list();
+        return new Page(pageSize,startIndex,list,totalCount);
+    }
+    //创建Query对象
+    public Query createQuery(String hql,Object...params){
+        Assert.hasText(hql);
+        Query query=getSession().createQuery(hql);
+        for(int i=0;i<params.length;i++){
+            query.setParameter(i,params[i]);
+        }
+        return query;
+    }
+
+    //除去Hql的Select子句
+    private static String removeSelect(String hql){
+        Assert.hasText(hql);
+        int beginPos=hql.toLowerCase().indexOf("from");
+        Assert.isTrue(beginPos!=-1,"hql:"+hql+"must has a keywords 'from'");
+        return hql.substring(beginPos);
+    }
+    //出去Hql的Order By子句
+    private static String removeOrders(String hql){
+        Assert.hasText(hql);
+        Pattern p=Pattern.compile("order\\s*by[\\w|\\W|\\s|\\S]*",Pattern.CASE_INSENSITIVE);
+        Matcher m=p.matcher(hql);
+        StringBuffer stringBuffer=new StringBuffer();
+        while (m.find()){
+            m.appendReplacement(stringBuffer,"");
+        }
+        m.appendTail(stringBuffer);
+        return stringBuffer.toString();
+    }
 }
