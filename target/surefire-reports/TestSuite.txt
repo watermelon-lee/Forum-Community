@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.474 sec <<< FAILURE!
+test(com.BoardTest)  Time elapsed: 2.299 sec  <<< FAILURE!
+org.springframework.dao.InvalidDataAccessApiUsageException: Write operations are not allowed in read-only mode (FlushMode.MANUAL): Turn your Session into FlushMode.COMMIT/AUTO or remove 'readOnly' marker from transaction definition.
+	at org.springframework.orm.hibernate4.HibernateTemplate.checkWriteOperationAllowed(HibernateTemplate.java:1128)
+	at org.springframework.orm.hibernate4.HibernateTemplate$12.doInHibernate(HibernateTemplate.java:621)
+	at org.springframework.orm.hibernate4.HibernateTemplate$12.doInHibernate(HibernateTemplate.java:618)
+	at org.springframework.orm.hibernate4.HibernateTemplate.doExecute(HibernateTemplate.java:341)
+	at org.springframework.orm.hibernate4.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:309)
+	at org.springframework.orm.hibernate4.HibernateTemplate.save(HibernateTemplate.java:618)
+	at com.dao.BaseDao.save(BaseDao.java:64)
+	at com.BoardTest.test(BoardTest.java:19)
+

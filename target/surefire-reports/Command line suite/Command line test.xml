@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Command line test" failures="1" tests="1" time="2.309" errors="0">
+  <properties/>
+  <testcase name="test" time="2.295" classname="com.BoardTest">
+    <failure type="org.springframework.dao.InvalidDataAccessApiUsageException" message="Write operations are not allowed in read-only mode (FlushMode.MANUAL): Turn your Session into FlushMode.COMMIT/AUTO or remove &apos;readOnly&apos; marker from transaction definition.">
+      <![CDATA[org.springframework.dao.InvalidDataAccessApiUsageException: Write operations are not allowed in read-only mode (FlushMode.MANUAL): Turn your Session into FlushMode.COMMIT/AUTO or remove 'readOnly' marker from transaction definition.
+	at org.springframework.orm.hibernate4.HibernateTemplate.checkWriteOperationAllowed(HibernateTemplate.java:1128)
+	at org.springframework.orm.hibernate4.HibernateTemplate$12.doInHibernate(HibernateTemplate.java:621)
+	at org.springframework.orm.hibernate4.HibernateTemplate$12.doInHibernate(HibernateTemplate.java:618)
+	at org.springframework.orm.hibernate4.HibernateTemplate.doExecute(HibernateTemplate.java:341)
+	at org.springframework.orm.hibernate4.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:309)
+	at org.springframework.orm.hibernate4.HibernateTemplate.save(HibernateTemplate.java:618)
+	at com.dao.BaseDao.save(BaseDao.java:64)
+	at com.BoardTest.test(BoardTest.java:19)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:60)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:106)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+... Removed 24 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

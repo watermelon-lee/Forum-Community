@@ -29,14 +29,14 @@ public class Topic extends BaseDomain {
     @Column(name = "board_id")
     private int boardId;
     @Column(name = "create_time")
-    private String createTime;
+    private Date createTime;
     @Column(name = "last_post")
     private Date lastPost;
     @Column(name = "topic_views")
     private int views;
     @Column(name = "topic_replies")
     private int replies;
-    @Column(name = "digset")
+    @Column(name = "digest")
     private int digest=NOT_DIGEST_TOPIC;
     @ManyToOne
     @JoinColumn(name = "user_id")
@@ -44,6 +44,14 @@ public class Topic extends BaseDomain {
 
     @Transient//标示不在数据库表的列中
     private MainPost mainPost=new MainPost();
+
+    public MainPost getMainPost() {
+        return mainPost;
+    }
+
+    public void setMainPost(MainPost mainPost) {
+        this.mainPost = mainPost;
+    }
 
     public int getTopicId() {
         return topicId;
@@ -61,11 +69,11 @@ public class Topic extends BaseDomain {
         this.topicTitle = topicTitle;
     }
 
-    public String getCreateTime() {
+    public Date getCreateTime() {
         return createTime;
     }
 
-    public void setCreateTime(String createTime) {
+    public void setCreateTime(Date createTime) {
         this.createTime = createTime;
     }
 

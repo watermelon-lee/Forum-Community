@@ -25,12 +25,22 @@ public class Post extends BaseDomain{
     private String postText;
     @Column(name = "create_time")
     private Date createTime;
+    @Column(name = "board_id")
+    private int boardId;
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
     @ManyToOne(cascade = {CascadeType.PERSIST,CascadeType.MERGE})
     @JoinColumn(name = "topic_id")
     private Topic topic;
+
+    public int getBoardId() {
+        return boardId;
+    }
+
+    public void setBoardId(int boardId) {
+        this.boardId = boardId;
+    }
 
     public User getUser() {
         return user;

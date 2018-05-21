@@ -2,7 +2,7 @@ package com.dao;
 
 import org.hibernate.Query;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.orm.hibernate3.HibernateTemplate;
+import org.springframework.orm.hibernate4.HibernateTemplate;
 import org.springframework.util.Assert;
 
 import java.io.Serializable;
@@ -16,13 +16,14 @@ import java.util.regex.Pattern;
 import static org.unitils.orm.hibernate.HibernateUnitils.getSession;
 
 public class BaseDao<T> {
-    @Autowired
+
     private HibernateTemplate hibernateTemplate;
 
     public HibernateTemplate getHibernateTemplate() {
         return hibernateTemplate;
     }
 
+    @Autowired
     public void setHibernateTemplate(HibernateTemplate hibernateTemplate) {
         this.hibernateTemplate = hibernateTemplate;
     }
@@ -55,15 +56,15 @@ public class BaseDao<T> {
         return (T)getHibernateTemplate().get(entityClass,id);
     }
     //获取PO的所有对象
-    public Set<T> loadAll(){
-        return (Set<T>)getHibernateTemplate().loadAll(entityClass);
+    public List<T> loadAll(){
+        return (List<T>)getHibernateTemplate().loadAll(entityClass);
     }
     //保存PO
     public void save(T entity){
         getHibernateTemplate().save(entity);
     }
     //删除PO
-    public void remoce(T entity){
+    public void remove(T entity){
         getHibernateTemplate().delete(entity);
     }
     //更改Po
@@ -104,6 +105,12 @@ public class BaseDao<T> {
     public Query createQuery(String hql,Object...params){
         Assert.hasText(hql);
         Query query=getSession().createQuery(hql);
+        /*
+        通过getSession()取回来的session的flush mode 是FlushMode.NEVER，FlushMode.NEVER只支持read-only()，
+        简而言之就是，只能对数据进行读的操作，其余的操作不被允许。只有当session的类型为FlushMode.AUTO时，
+        才能够进行修改等操作。如果想把session的类型设为FlushMode.AUTO的话，
+        就需要继承OpenSessionInViewFilter类，然后重写这个方法
+         */
         for(int i=0;i<params.length;i++){
             query.setParameter(i,params[i]);
         }

@@ -12,11 +12,11 @@ public class UserDao extends BaseDao<User> {
 
     //根据用户名查询对象
     public User getUserByUserName(String useName){
-        User user=(User)getHibernateTemplate().find(GET_USER_BY_USERNAME);
-        if(user==null){
+        List<User> users=(List<User>) getHibernateTemplate().find(GET_USER_BY_USERNAME,useName);
+        if(users==null){
             return null;
         }else{
-            return user;
+            return users.get(0);
         }
     }
 
