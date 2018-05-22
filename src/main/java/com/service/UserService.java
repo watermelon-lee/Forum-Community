@@ -42,9 +42,9 @@ public class UserService {
             throw new UserExistException("用户名存在");
         }
         else{
-            user1.setCredit(100);
-            user1.setUserType(1);
-            userDao.save(user1);
+            user.setCredit(100);
+            user.setUserType(1);
+            userDao.save(user);
         }
     }
 
@@ -64,7 +64,7 @@ public class UserService {
         userDao.update(user);
     }
     //解除用户锁定
-    public void unLickUser(String userName){
+    public void unLockUser(String userName){
         User user=userDao.getUserByUserName(userName);
         user.setLocked(User.USER_UNLOCK);
         userDao.update(user);

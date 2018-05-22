@@ -1,4 +1,4 @@
-package com;
+package com.dao;
 
 import com.dao.BoardDao;
 import com.dao.Page;
@@ -29,6 +29,7 @@ public class TopicTest {
         user.setUserName("wade");
         topic.setUser(user);
         topicDao.save(topic);
+        topicDao.remove(topic);
 //        Page page=topicDao.getBoardDigestTopics(2,1,1);
 //        System.out.println(page);
     }

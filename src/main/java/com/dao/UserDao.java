@@ -13,7 +13,8 @@ public class UserDao extends BaseDao<User> {
     //根据用户名查询对象
     public User getUserByUserName(String useName){
         List<User> users=(List<User>) getHibernateTemplate().find(GET_USER_BY_USERNAME,useName);
-        if(users==null){
+
+        if(users.size()==0){
             return null;
         }else{
             return users.get(0);

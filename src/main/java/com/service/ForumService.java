@@ -103,7 +103,7 @@ public class ForumService {
     //添加一个回复帖子,用户积分加5,主题帖回复数+1,更新最后回复时间
     public void addPost(Post post){
         postDao.save(post);
-        Topic topic=topicDao.get(post.getTopic());
+        Topic topic=topicDao.get(post.getTopic().getTopicId());
         topic.setReplies(topic.getReplies()+1);
         topic.setLastPost(new Date());
         topicDao.update(topic);//topic收到Hibernate托管,可不用这句

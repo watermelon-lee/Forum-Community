@@ -1,4 +1,4 @@
-package com;
+package com.dao;
 
 import com.dao.UserDao;
 import com.domain.User;

@@ -1,4 +1,4 @@
-package com;
+package com.dao;
 
 import com.dao.BoardDao;
 import com.dao.PostDao;
