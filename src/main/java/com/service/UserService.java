@@ -47,6 +47,10 @@ public class UserService {
             userDao.save(user);
         }
     }
+    public void update(User user){
+        userDao.update(user);
+    }
+
 
     //根据用户名/密码查询User对象
     public User getUserByUserName(String userName){
