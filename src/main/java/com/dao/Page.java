@@ -34,6 +34,11 @@ public class Page implements Serializable {
             return totalCount/pageSize+1;
         }
     }
+    //取话题
+    public List getResult() {
+        return data;
+    }
+
     //取该页当前页码,页码从1开始
     public long getCurrentPageNo() {
         return start / pageSize + 1;

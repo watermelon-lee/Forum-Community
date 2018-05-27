@@ -1,11 +1,14 @@
 package com.web;
 
 import com.domain.Board;
+import com.domain.User;
 import com.service.ForumService;
 import com.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -39,15 +42,94 @@ public class ForumManagerController extends BaseController {
         ModelAndView modelAndView=new ModelAndView();
         modelAndView.setViewName("/listAllBoards");
         List<Board> boards= forumService.getAllBoards();
-        modelAndView.addObject(boards);
+        modelAndView.addObject("boards",boards);
         return modelAndView;
     }
 
-    //添加一个主题帖页面
+    //添加一个版块
     @RequestMapping("/forum/addBoardPage")
     public String addBoardPage(){
-        return "/forum/addBoard";
+        return "/addBoard";
     }
-    //添加一个主题帖
-    //指定论坛的管理员页面
+
+    //添加一个版块成功
+    @RequestMapping("/forum/addBoard")
+    public String addBoard(Board board){
+        forumService.addBoard(board);
+        return "/addBoardSuccess";
+    }
+    //指定管理员页面
+    @RequestMapping("/forum/setBoardManagerPage")
+    public ModelAndView setBoardManagerPage(){
+        ModelAndView modelAndView=new ModelAndView();
+        List<Board>boards=forumService.getAllBoards();
+        List<User>users=userService.getAllUsers();
+        modelAndView.addObject(boards);
+        modelAndView.addObject(users);
+        modelAndView.setViewName("/setBoardManager");
+        return modelAndView;
+    }
+
+    //指定论坛的管理员
+    @RequestMapping("/forum/setBoardManager")
+    public ModelAndView setBoardManager(
+            @RequestParam("userName")String userName,
+            @RequestParam("boardId")String boardId){
+        ModelAndView modelAndView=new ModelAndView();
+        User user=userService.getUserByUserName(userName);
+        if(user==null){
+            modelAndView.addObject("errorMsg","用户名不存在");
+        }else{
+            Board board=new Board();
+            board=forumService.getBoardByBoardId(Integer.parseInt(boardId));
+            user.getManBoards().add(board);
+            userService.update(user);
+            modelAndView.setViewName("/success");
+        }
+        return modelAndView;
+    }
+
+    //用户锁定解锁管理页面
+    @RequestMapping("/forum/userLockManagePage")
+    public ModelAndView userLockManagePage(){
+        ModelAndView modelAndView=new ModelAndView();
+        List<User>users=userService.getAllUsers();
+        modelAndView.addObject("users",users);
+        modelAndView.setViewName("/userLockManage");
+        return modelAndView;
+    }
+
+    //用户管理锁定
+    @RequestMapping("/forum/userLockManage")
+    public ModelAndView userLockManage(@RequestParam("userName")String userName,@RequestParam("locked")String locked){
+        ModelAndView modelAndView=new ModelAndView();
+        User user=userService.getUserByUserName(userName);
+        if(user==null){
+            modelAndView.addObject("errorMsg","用户名”"+userName+"不存在");
+            modelAndView.setViewName("/fail");
+        }else {
+            userService.lockUser(userName);
+            modelAndView.setViewName("/success");
+        }
+        return modelAndView;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

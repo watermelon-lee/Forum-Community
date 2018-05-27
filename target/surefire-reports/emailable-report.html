@@ -29,27 +29,183 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">2.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">11</td><td class="numi">11</td><td class="numi">0</td><td class="numi_attn">4</td><td class="numi">4.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <a id="summary"></a>
 <table cellspacing=0 cellpadding=0 class="passed">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
 <tr><th colspan="4">Command line test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">com.BoardTest<td><a href="#m1">test</a></td><td class="numi">1</td><td class="numi">2295</td></tr>
+<tr class="failedodd"><td rowspan="3">com.service.Test<td><a href="#m1">addPost</a></td><td class="numi">1</td><td class="numi">113</td></tr><tr class="failedodd"><td><a href="#m2">removePost</a></td><td class="numi">1</td><td class="numi">11</td></tr><tr class="failedodd"><td><a href="#m3">removeTopic</a></td><td class="numi">1</td><td class="numi">9</td></tr>
+<tr class="failedeven"><td rowspan="1">com.service.UserTest<td><a href="#m4">register</a></td><td class="numi">1</td><td class="numi">13</td></tr>
+<tr><th colspan="4">Command line test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.dao.BoardTest<td><a href="#m5">test</a></td><td class="numi">1</td><td class="numi">1205</td></tr>
+<tr class="passedeven"><td rowspan="1">com.dao.PostTest<td><a href="#m6">test</a></td><td class="numi">1</td><td class="numi">729</td></tr>
+<tr class="passedodd"><td rowspan="1">com.dao.TopicTest<td><a href="#m7">test</a></td><td class="numi">1</td><td class="numi">675</td></tr>
+<tr class="passedeven"><td rowspan="1">com.dao.UserTest<td><a href="#m8">test</a></td><td class="numi">1</td><td class="numi">500</td></tr>
+<tr class="passedodd"><td rowspan="4">com.service.Test<td><a href="#m9">addBoard</a></td><td class="numi">1</td><td class="numi">59</td></tr><tr class="passedodd"><td><a href="#m10">addBoardManager</a></td><td class="numi">1</td><td class="numi">65</td></tr><tr class="passedodd"><td><a href="#m11">addTopic</a></td><td class="numi">1</td><td class="numi">196</td></tr><tr class="passedodd"><td><a href="#m12">makeDigestTopic</a></td><td class="numi">1</td><td class="numi">91</td></tr>
+<tr class="passedeven"><td rowspan="3">com.service.UserTest<td><a href="#m13">setUserLock</a></td><td class="numi">1</td><td class="numi">99</td></tr><tr class="passedeven"><td><a href="#m14">success</a></td><td class="numi">1</td><td class="numi">109</td></tr><tr class="passedeven"><td><a href="#m15">unlockUser</a></td><td class="numi">1</td><td class="numi">68</td></tr>
 </table>
 <h1>Command line test</h1>
-<a id="m1"></a><h2>com.BoardTest:test</h2>
+<a id="m1"></a><h2>com.service.Test:addPost</h2>
 <div style="padding-left:3em">
-<p>Write operations are not allowed in read-only mode (FlushMode.MANUAL): Turn your Session into FlushMode.COMMIT/AUTO or remove 'readOnly' marker from transaction definition.</p>
-org.springframework.orm.hibernate4.HibernateTemplate.checkWriteOperationAllowed(HibernateTemplate.java:1128)
-<br/>at org.springframework.orm.hibernate4.HibernateTemplate$12.doInHibernate(HibernateTemplate.java:621)
-<br/>at org.springframework.orm.hibernate4.HibernateTemplate$12.doInHibernate(HibernateTemplate.java:618)
+<p>a different object with the same identifier value was already associated with the session: [com.domain.User#1]; nested exception is org.hibernate.NonUniqueObjectException: a different object with the same identifier value was already associated with the session: [com.domain.User#1]</p>
+org.springframework.orm.hibernate4.SessionFactoryUtils.convertHibernateAccessException(SessionFactoryUtils.java:181)
+<br/>at org.springframework.orm.hibernate4.HibernateTemplate.doExecute(HibernateTemplate.java:344)
+<br/>at org.springframework.orm.hibernate4.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:309)
+<br/>at org.springframework.orm.hibernate4.HibernateTemplate.update(HibernateTemplate.java:645)
+<br/>at org.springframework.orm.hibernate4.HibernateTemplate.update(HibernateTemplate.java:640)
+<br/>at com.dao.BaseDao.update(BaseDao.java:72)
+<br/>at com.dao.BaseDao$$FastClassBySpringCGLIB$$9b6abf98.invoke(&lt;generated&gt;)
+<br/>at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+<br/>at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+<br/>at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+<br/>at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+<br/>at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+<br/>at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+<br/>at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+<br/>at com.dao.UserDao$$EnhancerBySpringCGLIB$$72ab1f45.update(&lt;generated&gt;)
+<br/>at com.service.ForumService.addPost(ForumService.java:113)
+<br/>at com.service.ForumService$$FastClassBySpringCGLIB$$9a85475a.invoke(&lt;generated&gt;)
+<br/>at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+<br/>at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+<br/>at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+<br/>at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+<br/>at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+<br/>at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+<br/>at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+<br/>at com.service.ForumService$$EnhancerBySpringCGLIB$$6409e2c1.addPost(&lt;generated&gt;)
+<br/>at com.service.Test.addPost(Test.java:68)
+<br/>34 lines not shown
+<p>Caused by a different object with the same identifier value was already associated with the session: [com.domain.User#1]</p>
+org.hibernate.engine.internal.StatefulPersistenceContext.checkUniqueness(StatefulPersistenceContext.java:697)
+<br/>at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.performUpdate(DefaultSaveOrUpdateEventListener.java:293)
+<br/>at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.entityIsDetached(DefaultSaveOrUpdateEventListener.java:239)
+<br/>at org.hibernate.event.internal.DefaultUpdateEventListener.performSaveOrUpdate(DefaultUpdateEventListener.java:55)
+<br/>at org.hibernate.event.internal.DefaultSaveOrUpdateEventListener.onSaveOrUpdate(DefaultSaveOrUpdateEventListener.java:90)
+<br/>at org.hibernate.internal.SessionImpl.fireUpdate(SessionImpl.java:785)
+<br/>at org.hibernate.internal.SessionImpl.update(SessionImpl.java:777)
+<br/>at org.hibernate.internal.SessionImpl.update(SessionImpl.java:773)
+<br/>at org.springframework.orm.hibernate4.HibernateTemplate$14.doInHibernate(HibernateTemplate.java:649)
 <br/>at org.springframework.orm.hibernate4.HibernateTemplate.doExecute(HibernateTemplate.java:341)
 <br/>at org.springframework.orm.hibernate4.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:309)
-<br/>at org.springframework.orm.hibernate4.HibernateTemplate.save(HibernateTemplate.java:618)
-<br/>at com.dao.BaseDao.save(BaseDao.java:64)
-<br/>at com.BoardTest.test(BoardTest.java:19)
-<br/>33 lines not shown
+<br/>at org.springframework.orm.hibernate4.HibernateTemplate.update(HibernateTemplate.java:645)
+<br/>at org.springframework.orm.hibernate4.HibernateTemplate.update(HibernateTemplate.java:640)
+<br/>at com.dao.BaseDao.update(BaseDao.java:72)
+<br/>at com.dao.BaseDao$$FastClassBySpringCGLIB$$9b6abf98.invoke(&lt;generated&gt;)
+<br/>at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+<br/>at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+<br/>at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+<br/>at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+<br/>at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+<br/>at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+<br/>at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+<br/>at com.dao.UserDao$$EnhancerBySpringCGLIB$$72ab1f45.update(&lt;generated&gt;)
+<br/>at com.service.ForumService.addPost(ForumService.java:113)
+<br/>at com.service.ForumService$$FastClassBySpringCGLIB$$9a85475a.invoke(&lt;generated&gt;)
+<br/>at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+<br/>at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+<br/>at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+<br/>at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+<br/>at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+<br/>at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+<br/>at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+<br/>at com.service.ForumService$$EnhancerBySpringCGLIB$$6409e2c1.addPost(&lt;generated&gt;)
+<br/>at com.service.Test.addPost(Test.java:68)
+<br/>34 lines not shown
 </div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>com.service.Test:removePost</h2>
+<div style="padding-left:3em">
+<p>null</p>
+com.service.ForumService.removePost(ForumService.java:118)
+<br/>at com.service.ForumService$$FastClassBySpringCGLIB$$9a85475a.invoke(&lt;generated&gt;)
+<br/>at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+<br/>at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+<br/>at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+<br/>at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+<br/>at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+<br/>at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+<br/>at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+<br/>at com.service.ForumService$$EnhancerBySpringCGLIB$$6409e2c1.removePost(&lt;generated&gt;)
+<br/>at com.service.Test.removePost(Test.java:72)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>com.service.Test:removeTopic</h2>
+<div style="padding-left:3em">
+<p>null</p>
+com.service.ForumService.removeTopic(ForumService.java:90)
+<br/>at com.service.ForumService$$FastClassBySpringCGLIB$$9a85475a.invoke(&lt;generated&gt;)
+<br/>at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+<br/>at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+<br/>at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+<br/>at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+<br/>at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+<br/>at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+<br/>at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+<br/>at com.service.ForumService$$EnhancerBySpringCGLIB$$6409e2c1.removeTopic(&lt;generated&gt;)
+<br/>at com.service.Test.removeTopic(Test.java:52)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>com.service.UserTest:register</h2>
+<div style="padding-left:3em">
+<p>用户名存在</p>
+com.service.UserService.register(UserService.java:42)
+<br/>at com.service.UserService$$FastClassBySpringCGLIB$$4e68a2a4.invoke(&lt;generated&gt;)
+<br/>at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+<br/>at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+<br/>at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+<br/>at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+<br/>at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+<br/>at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+<br/>at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+<br/>at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+<br/>at com.service.UserService$$EnhancerBySpringCGLIB$$8ff82ecb.register(&lt;generated&gt;)
+<br/>at com.service.UserTest.register(UserTest.java:21)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>com.dao.BoardTest:test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>com.dao.PostTest:test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>com.dao.TopicTest:test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>com.dao.UserTest:test</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>com.service.Test:addBoard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>com.service.Test:addBoardManager</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>com.service.Test:addTopic</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>com.service.Test:makeDigestTopic</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m13"></a><h2>com.service.UserTest:setUserLock</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>com.service.UserTest:success</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m15"></a><h2>com.service.UserTest:unlockUser</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

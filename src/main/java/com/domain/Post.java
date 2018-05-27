@@ -1,14 +1,11 @@
 package com.domain;
 
-import org.hibernate.annotations.Cache;
-import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import javax.persistence.*;
 import java.util.Date;
 
 @Entity
 @Table(name = "t_post")
-@Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)//映射继承,构成一张表
 @DiscriminatorColumn(name = "post_type",discriminatorType = DiscriminatorType.STRING)
 @DiscriminatorValue("1")

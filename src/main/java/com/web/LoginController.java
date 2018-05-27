@@ -14,7 +14,6 @@ import javax.servlet.http.HttpSession;
 import java.util.Date;
 
 @Controller
-@RequestMapping("/login")
 public class LoginController extends BaseController {
     @Autowired
     private UserService userService;
@@ -28,26 +27,26 @@ public class LoginController extends BaseController {
     }
 
     //用户登录
-    @RequestMapping("/doLogin")
+    @RequestMapping("/login/doLogin")
     public ModelAndView login(HttpServletRequest request,User user){
         User dbUser=userService.getUserByUserName(user.getUserName());
         ModelAndView modelAndView=new ModelAndView();
-        modelAndView.setViewName("forward:login.jsp");
-        if(dbUser.getPassword().equals(user.getPassword())){
-            modelAndView.addObject("用户名不正确");
+        modelAndView.setViewName("forward:/login.jsp");
+        if(!dbUser.getPassword().equals(user.getPassword())){
+            modelAndView.addObject("errorMsg","密码不正确");
         }else if(dbUser==null){
-            modelAndView.addObject("用户名为空");
+            modelAndView.addObject("errorMsg","用户名不存在");
         }else if(dbUser.getLocked()==User.USER_LOCK) {
-            modelAndView.addObject("用户被锁定，无法登陆");
+            modelAndView.addObject("errorMsg","用户被锁定，无法登陆");
         }else {
             dbUser.setLastIp(request.getRemoteAddr());
             dbUser.setLastVisit(new Date());
             userService.loginSuccess(dbUser);
-            setSessionUser(request,user);
+            setSessionUser(request,dbUser);
             String toUrl=(String)request.getSession().getAttribute(LOGIN_TO_URL);
             request.getSession().removeAttribute(LOGIN_TO_URL);
 
-            //如果回话灭有保存之前请求的URL，直接跳转主页
+            //如果会话没有保存之前请求的URL，直接跳转主页
             if(StringUtils.isEmpty(toUrl)){
                 toUrl="/index.html";
             }
@@ -56,7 +55,7 @@ public class LoginController extends BaseController {
         return modelAndView;
     }
     //登录注销
-    @RequestMapping("/doLogout")
+    @RequestMapping("/login/doLogout")
     public String logout(HttpSession session){
         session.removeAttribute(USER_CONTEXT);
         return "forward:/index.jsp";

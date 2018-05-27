@@ -2,9 +2,16 @@
 <suite thread-count="10" skipfailedinvocationCounts="false" verbose="0" name="Failed suite [Command line suite]" junit="false" annotations="JDK">
   <test name="Command line test(failed)" junit="false" annotations="JDK">
     <classes>
-      <class name="com.BoardTest">
+      <class name="com.service.Test">
         <methods>
-          <include name="test"/>
+          <include name="removeTopic"/>
+          <include name="addPost"/>
+          <include name="removePost"/>
+        </methods>
+      </class>
+      <class name="com.service.UserTest">
+        <methods>
+          <include name="register"/>
         </methods>
       </class>
     </classes>

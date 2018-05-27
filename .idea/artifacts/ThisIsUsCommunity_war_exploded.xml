@@ -7,15 +7,17 @@
           <element id="module-output" name="ThisIsUsCommunity" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-oxm:4.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-test:4.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.2.2.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.2.2.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-websocket:4.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.2.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.2.2.RELEASE" />
@@ -55,7 +57,6 @@
           <element id="library" level="project" name="Maven: javax.persistence:persistence-api:1.0" />
           <element id="library" level="project" name="Maven: org.unitils:unitils-database:3.4.2" />
           <element id="library" level="project" name="Maven: org.unitils:unitils-dbmaintainer:3.4.2" />
-          <element id="library" level="project" name="Maven: org.hibernate:hibernate:3.2.5.ga" />
           <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache:1.2.3" />
           <element id="library" level="project" name="Maven: asm:asm-attrs:1.5.3" />
           <element id="library" level="project" name="Maven: cglib:cglib:2.1_3" />

@@ -1,13 +1,10 @@
 package com.domain;
 
-import org.hibernate.annotations.Cache;
-import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import javax.persistence.*;
 import java.util.Date;
 @Entity
 @Table(name = "t_login_log")
-@Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 public class LoginLog extends BaseDomain {
     @Id
     @Column(name = "login_log_id")

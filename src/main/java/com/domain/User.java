@@ -1,14 +1,11 @@
 package com.domain;
 
-import org.hibernate.annotations.Cache;
-import org.hibernate.annotations.CacheConcurrencyStrategy;
-
 import javax.persistence.*;
 import java.util.Date;
 import java.util.Set;
+
 @Entity
 @Table(name = "t_user")
-@Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 public class User extends BaseDomain {
     /*
         锁定用户对应状态值

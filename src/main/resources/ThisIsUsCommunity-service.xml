@@ -30,6 +30,5 @@
         </tx:attributes>
     </tx:advice>
 
-    <bean id="cacheManager" class="org.springframework.cache.ehcache.EhCacheManagerFactoryBean"
-          p:configLocation="classpath:ehcache.xml"/>
+
 </beans>

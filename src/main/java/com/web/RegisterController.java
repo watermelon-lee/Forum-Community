@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 @Controller
-@RequestMapping("/register")
 public class RegisterController extends BaseController {
     @Autowired
     private UserService userService;
@@ -28,11 +28,15 @@ public class RegisterController extends BaseController {
     @RequestMapping(value = "/register",method = RequestMethod.POST)
     public ModelAndView register(HttpServletRequest request,User user){
         ModelAndView modelAndView=new ModelAndView();
-        modelAndView.setViewName("/success.html");
+        modelAndView.setViewName("/success");
         try{
             userService.register(user);
         }catch (UserExistException e){
-            modelAndView.addObject("用户名已经存在，请更换用户名");
+            modelAndView.addObject("errorMsg1","用户名已经存在，请更换用户名");
+            modelAndView.setViewName("forward:/register.jsp");
+        }
+        if(!request.getParameter("password").equals(request.getParameter("again"))){
+            modelAndView.addObject("errorMsg2","两次输入密码不同");
             modelAndView.setViewName("forward:/register.jsp");
         }
         setSessionUser(request,user);

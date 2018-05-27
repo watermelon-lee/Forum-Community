@@ -1,7 +1,5 @@
 package com.domain;
 
-import org.hibernate.annotations.Cache;
-import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -9,7 +7,6 @@ import java.util.Set;
 
 @Entity
 @Table(name = "t_board")
-@Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 public class Board extends BaseDomain{
     @Id
     @Column(name = "board_id")

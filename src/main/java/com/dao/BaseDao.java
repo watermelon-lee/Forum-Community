@@ -1,5 +1,7 @@
 package com.dao;
 
+import com.cons.CommonConstant;
+import com.domain.Topic;
 import org.hibernate.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.hibernate4.HibernateTemplate;
@@ -17,13 +19,13 @@ import static org.unitils.orm.hibernate.HibernateUnitils.getSession;
 
 public class BaseDao<T> {
 
+    @Autowired
     private HibernateTemplate hibernateTemplate;
 
     public HibernateTemplate getHibernateTemplate() {
         return hibernateTemplate;
     }
 
-    @Autowired
     public void setHibernateTemplate(HibernateTemplate hibernateTemplate) {
         this.hibernateTemplate = hibernateTemplate;
     }
@@ -97,25 +99,32 @@ public class BaseDao<T> {
         }
         //实际查询返回分页对象
         int startIndex=Page.getStartOfPage(pageNo,pageSize);
-        Query query=createQuery(hql,params);
-        List list=query.setFirstResult(startIndex).setMaxResults(pageSize).list();
+        List list1=getHibernateTemplate().find(hql,params);
+        int endIndex=startIndex+CommonConstant.PAGE_SIZE;
+        if(endIndex>list1.size()){
+            endIndex=list1.size();
+        }
+        List list=list1.subList(startIndex,endIndex);
+
+        //Query query=createQuery(hql,params);
+        //List list=query.setFirstResult(startIndex).setMaxResults(pageSize).list();
         return new Page(pageSize,startIndex,list,totalCount);
     }
     //创建Query对象
-    public Query createQuery(String hql,Object...params){
-        Assert.hasText(hql);
-        Query query=getSession().createQuery(hql);
-        /*
-        通过getSession()取回来的session的flush mode 是FlushMode.NEVER，FlushMode.NEVER只支持read-only()，
-        简而言之就是，只能对数据进行读的操作，其余的操作不被允许。只有当session的类型为FlushMode.AUTO时，
-        才能够进行修改等操作。如果想把session的类型设为FlushMode.AUTO的话，
-        就需要继承OpenSessionInViewFilter类，然后重写这个方法
-         */
-        for(int i=0;i<params.length;i++){
-            query.setParameter(i,params[i]);
-        }
-        return query;
-    }
+//    public Query createQuery(String hql,Object...params){
+//        Assert.hasText(hql);
+//        Query query=getSession().createQuery(hql);
+//        /*
+//        通过getSession()取回来的session的flush mode 是FlushMode.NEVER，FlushMode.NEVER只支持read-only()，
+//        简而言之就是，只能对数据进行读的操作，其余的操作不被允许。只有当session的类型为FlushMode.AUTO时，
+//        才能够进行修改等操作。如果想把session的类型设为FlushMode.AUTO的话，
+//        就需要继承OpenSessionInViewFilter类，然后重写这个方法
+//         */
+//        for(int i=0;i<params.length;i++){
+//            query.setParameter(i,params[i]);
+//        }
+//        return query;
+//    }
 
     //除去Hql的Select子句
     private static String removeSelect(String hql){
