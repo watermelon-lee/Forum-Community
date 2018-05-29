@@ -10,7 +10,6 @@
     <title>论坛版块页面</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>板块专区</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
@@ -25,8 +24,6 @@
     <script src="<c:url value=" /js/vendor/respond.min.js" />"></script>
 </head>
 <body>
-
-
 
 
 <header role="banner">
@@ -52,7 +49,7 @@
                         <li><a href="<c:url value="/login.jsp"/>"><span class="glyphicon glyphicon-upload"></span>登录</a></li>
                         <li><a href="<c:url value="/register.jsp"/>"><span class="glyphicon glyphicon-plus"></span>注册</a></li>
                     </c:if>
-                    <li class="active"><a href="#"><span class="glyphicon glyphicon-list-alt"></span>社区内容</a></li>
+                        <li class="active"><a href="<c:url value="/index.html"/>"><span class="glyphicon glyphicon-list-alt"></span>社区内容</a></li>
                     <c:if test="${USER_CONTEXT.userType==2}">
                         <li>
                             <a href="<c:url value="/forum/addBoardPage.html"/>"><span class="glyphicon glyphicon-edit"></span>新建版块</a>
@@ -63,8 +60,6 @@
                         <li>
                             <a href="<c:url value="/forum/userLockManagePage.html"/>"><span class="glyphicon glyphicon-lock"></span>用户锁定/解锁</a>
                         </li>
-
-
                     </c:if>
                 </ul>
                 <form class="navbar-form navbar-left" role="search">
@@ -80,16 +75,22 @@
 
 <%--<%@ include file="includeTop.jsp"%>--%>
 
-<div>
-    <table border="1px" width="100%">
+<div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">${board.boardName}</div>
+    <div class="panel-body">
+        <p>${board.boardDesc}</p>
+    </div>
+
+    <!-- Table -->
+    <table class="table">
         <tr>
             <c:if test="${USER_CONTEXT.userType == 2 || isboardManager}">
-                <td></td>
+
             </c:if>
-            <td bgcolor="#EEEEEE">
-                ${board.boardName}
-            </td>
-            <td colspan="4" bgcolor="#EEEEEE" align="right">
+            <td colspan="3" bgcolor="#EEEEEE">板块帖子</td>
+
+            <td colspan="3" bgcolor="#EEEEEE" align="right">
                 <a
                         href="<c:url value="/board/addTopicPage-${board.boardId}.html"/>">发表新话题</a>
             </td>
@@ -111,7 +112,7 @@
                             }
                         }
                     </script>
-                    <input type="checkbox" onclick="switchSelectBox()"/>
+                    <%--<input type="checkbox" onclick="switchSelectBox()"/>--%>
                 </td>
             </c:if>
             <td width="50%">

@@ -17,6 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
+import java.util.List;
 
 @Controller
 public class BoardManageController extends BaseController {
@@ -41,7 +42,7 @@ public class BoardManageController extends BaseController {
         Page pagedTopic=forumService.getPageTopics(boardId, CommonConstant.PAGE_SIZE,pageNo);
         modelAndView.addObject("board",board);
         modelAndView.addObject("pagedTopic",pagedTopic);
-        modelAndView.setViewName("listBoardTopics");
+        modelAndView.setViewName("/listBoardTopics");
         return modelAndView;
     }
 
@@ -81,6 +82,8 @@ public class BoardManageController extends BaseController {
         modelAndView.setViewName("/listTopicPosts");
         return modelAndView;
     }
+
+
 
     //回复主题
     @RequestMapping("/board/addPost")

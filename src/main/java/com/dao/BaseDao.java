@@ -110,6 +110,28 @@ public class BaseDao<T> {
         //List list=query.setFirstResult(startIndex).setMaxResults(pageSize).list();
         return new Page(pageSize,startIndex,list,totalCount);
     }
+
+    public Page searchQuery(int pageNo,int pageSize,Object...params){
+        String hql="from Topic  where topicTitle like '%"+params+"%'";
+        String countQueryString="select count(*) "+hql;
+        List countList=getHibernateTemplate().find(countQueryString);
+        long totalCount=(Long)countList.get(0);
+        if(totalCount<1){
+            return new Page();
+        }
+        //实际查询返回分页对象
+        int startIndex=Page.getStartOfPage(pageNo,pageSize);
+        List list1=getHibernateTemplate().find(hql,params);
+        int endIndex=startIndex+CommonConstant.PAGE_SIZE;
+        if(endIndex>list1.size()){
+            endIndex=list1.size();
+        }
+        List list=list1.subList(startIndex,endIndex);
+
+        //Query query=createQuery(hql,params);
+        //List list=query.setFirstResult(startIndex).setMaxResults(pageSize).list();
+        return new Page(pageSize,startIndex,list,totalCount);
+    }
     //创建Query对象
 //    public Query createQuery(String hql,Object...params){
 //        Assert.hasText(hql);

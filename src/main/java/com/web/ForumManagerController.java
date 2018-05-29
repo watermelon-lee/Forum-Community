@@ -1,5 +1,7 @@
 package com.web;
 
+import com.cons.CommonConstant;
+import com.dao.Page;
 import com.domain.Board;
 import com.domain.User;
 import com.service.ForumService;
@@ -46,6 +48,17 @@ public class ForumManagerController extends BaseController {
         return modelAndView;
     }
 
+    @RequestMapping("/forum/searchTopic")
+    public ModelAndView searchPost(@RequestParam("topicName")String topicName,@RequestParam(value = "pageNo",required = false) Integer pageNo){
+        ModelAndView modelAndView=new ModelAndView();
+        pageNo=pageNo==null?1:pageNo;
+        Page pageTopic=forumService.queryTopicByTitle(topicName,pageNo, CommonConstant.PAGE_SIZE);
+
+        modelAndView.addObject("pageTopics",pageTopic);
+        modelAndView.setViewName("/listSearchTopics");
+        return modelAndView;
+
+    }
     //添加一个版块
     @RequestMapping("/forum/addBoardPage")
     public String addBoardPage(){
@@ -64,8 +77,8 @@ public class ForumManagerController extends BaseController {
         ModelAndView modelAndView=new ModelAndView();
         List<Board>boards=forumService.getAllBoards();
         List<User>users=userService.getAllUsers();
-        modelAndView.addObject(boards);
-        modelAndView.addObject(users);
+        modelAndView.addObject("boards",boards);
+        modelAndView.addObject("users",users);
         modelAndView.setViewName("/setBoardManager");
         return modelAndView;
     }
