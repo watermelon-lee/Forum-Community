@@ -52,8 +52,9 @@ public class ForumManagerController extends BaseController {
     public ModelAndView searchPost(@RequestParam("topicName")String topicName,@RequestParam(value = "pageNo",required = false) Integer pageNo){
         ModelAndView modelAndView=new ModelAndView();
         pageNo=pageNo==null?1:pageNo;
-        Page pageTopic=forumService.queryTopicByTitle(topicName,pageNo, CommonConstant.PAGE_SIZE);
+        Page pageTopic=forumService.queryTopicByTitle(topicName,pageNo, 20);
 
+        modelAndView.addObject("topicName",topicName);
         modelAndView.addObject("pageTopics",pageTopic);
         modelAndView.setViewName("/listSearchTopics");
         return modelAndView;

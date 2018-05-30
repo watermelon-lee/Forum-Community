@@ -69,9 +69,9 @@
                         </li>
                     </c:if>
                 </ul>
-                <form class="navbar-form navbar-left" role="search">
+                <form class="navbar-form navbar-left" role="search" action="<c:url value="/forum/searchTopic.html"/>">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="搜索">
+                        <input type="text" class="form-control" placeholder="Search" name="topicName">
                     </div>
                     <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
                 </form>
@@ -143,6 +143,11 @@
             </tr>
         </c:forEach>
     </table>
+
+    <%--<html:PageBar--%>
+            <%--pageUrl="/forum/searchTopic.html?topicName=${topicName}"--%>
+            <%--pageAttrKey="pageTopics"/>--%>
+
 </div>
 
 <script src="<c:url value="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"/>"></script>
