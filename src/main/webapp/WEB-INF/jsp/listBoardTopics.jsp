@@ -25,6 +25,8 @@
 </head>
 <body>
 
+<script type="text/javascript" color="255,0,0" opacity='0.7' zIndex="-2" count="300" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+
 
 <header role="banner">
     <nav role="navigation" class="navbar navbar-default">
@@ -115,8 +117,11 @@
                     <%--<input type="checkbox" onclick="switchSelectBox()"/>--%>
                 </td>
             </c:if>
-            <td width="50%">
+            <td width="40%">
                 标题
+            </td>
+            <td width="10%">
+                头像
             </td>
             <td width="10%">
                 发表人
@@ -150,6 +155,13 @@
                             ${topic.topicTitle}
                     </a>
 
+                </td>
+                <td>
+                    <c:if test="${!empty topic.user.avatar}">
+                        <div >
+                            <img  style="width: 50px;length:50px; line-height: 50px" src="<c:url value="${topic.user.avatar}"/> "/>
+                        </div>
+                    </c:if>
                 </td>
                 <td>
                         ${topic.user.userName}

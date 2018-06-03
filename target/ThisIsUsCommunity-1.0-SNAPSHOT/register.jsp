@@ -48,8 +48,9 @@
         <%--}--%>
     <%--</script>--%>
 </head>
-<body style="background-color: gainsboro">
+<body>
 
+<script type="text/javascript" color="255,0,0" opacity='0.7' zIndex="-2" count="300" src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
 
 
 <header role="banner">
@@ -106,7 +107,7 @@
     <img src="<c:url value="/img/user.png"/>">
 </div>
 <div class="container" style="position: absolute;top: 40%; left: 36%; width: 400px;" >
-    <form class="form-signin" action="<c:url value="/register.html"/> " method="post">
+    <form class="form-signin" action="<c:url value="/register.html"/> " method="post" enctype="multipart/form-data">
         <c:if test="${!empty errorMsg1 }">
             <div style="color: #00b3ee">${errorMsg1}</div>
         </c:if>
@@ -121,6 +122,8 @@
         <input type="password" id="inputPassword" name="password" class="form-control" placeholder="密码" required>
         <label for="inputPasswordAgdin" class="sr-only">Password</label>
         <input type="password" id="inputPasswordAgdin" name="again" class="form-control" placeholder="确认密码" required>
+        <label for="inputAvatar" class="sr-only">Password</label>
+        <input id="inputAvatar" type="file" name="avatar">
         <button class="btn btn-lg btn-primary btn-block" type="reset">重置</button>
         <button class="btn btn-lg btn-primary btn-block" type="submit">注册</button>
     </form>

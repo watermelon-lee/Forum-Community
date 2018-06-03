@@ -42,11 +42,25 @@ public class User extends BaseDomain {
     @Column(name = "last_ip")
     private String lastIp;
 
+    @Column(name = "avatar")
+    private String avatar;
+
+
+
     @ManyToMany(cascade = { CascadeType.PERSIST, CascadeType.MERGE }, fetch = FetchType.EAGER)
     // 映射连接表中名为user_id的外键列
     // 映射连接表中名为board_id的外键列
     @JoinTable(name = "t_board_manager", joinColumns = {@JoinColumn(name ="user_id" )}, inverseJoinColumns = {@JoinColumn(name = "board_id") })
     private Set<Board>manBoards;
+
+
+    public String getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
+    }
 
     public int getUserId() {
         return userId;

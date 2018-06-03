@@ -44,6 +44,8 @@ public class UserService {
         else{
             user.setCredit(100);
             user.setUserType(1);
+            //处理头像
+
             userDao.save(user);
         }
     }
