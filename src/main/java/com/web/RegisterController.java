@@ -51,16 +51,20 @@ public class RegisterController extends BaseController {
                 return modelAndView;
             }
         }
+        if(!request.getParameter("password").equals(request.getParameter("again"))){
+            modelAndView.addObject("errorMsg2","两次输入密码不同");
+            modelAndView.setViewName("forward:/register.jsp");
+            return modelAndView;
+        }
+
         try{
             userService.register(user);
         }catch (UserExistException e){
             modelAndView.addObject("errorMsg1","用户名已经存在，请更换用户名");
             modelAndView.setViewName("forward:/register.jsp");
+            return modelAndView;
         }
-        if(!request.getParameter("password").equals(request.getParameter("again"))){
-            modelAndView.addObject("errorMsg2","两次输入密码不同");
-            modelAndView.setViewName("forward:/register.jsp");
-        }
+
         setSessionUser(request,user);
         return modelAndView;
     }
