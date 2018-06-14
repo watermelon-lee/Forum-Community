@@ -18,9 +18,7 @@
     <!--<link href="css/signin.css" rel="stylesheet">-->
     <!-- Modernizr -->
     <script src="<c:url value="/js/vendor/modernizr-2.6.2.min.js" />"></script>
-    <!-- Respond.js for IE 8 or less only -->
-    <!--[if (lt IE 9) & (!IEMobile)]>
-    <![endif]-->
+
     <script src="<c:url value=" /js/vendor/respond.min.js" />"></script>
 </head>
 <body>
@@ -227,17 +225,6 @@
     <input type="button" value="置精华帖" onclick="setDefinedTopis()">
 </c:if>
 
-<script src="<c:url value="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"/>"></script>
-<script>window.jQuery || document.write('<script src="<c:url value="/js/vendor/jquery-1.10.2.min.js"/>"><\/script>')</script>
-<script src="<c:url value="/js/plugins.js"/>"></script>
-<script src="<c:url value="/js/main.js"/>"></script>
 
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-<script>
-    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
 </body>
 </html>

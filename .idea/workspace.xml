@@ -8,276 +8,70 @@
   <component name="ChangeListManager">
     <list default="true" id="e11ff0ee-ae0f-4cc3-8034-3d1cd914f999" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ThisIsUsCommunity-service.xml" afterPath="$PROJECT_DIR$/src/main/resources/ThisIsUsCommunity-service.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/.csscomb.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/.csslintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/alerts.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/badges.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/__main.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/_navbar.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/_variables.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/alerts.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/badges.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/bootstrap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/bootstrap.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/breadcrumbs.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/button-groups.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/buttons.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/carousel.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/close.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/code.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/component-animations.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/dropdowns.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/forms.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/glyphicons.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/grid.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/input-groups.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/jumbotron.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/labels.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/list-group.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/media.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/mixins.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/modals.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/navbar.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/navs.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/normalize.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/pager.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/pagination.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/panels.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/popovers.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/print.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/progress-bars.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/responsive-utilities.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/scaffolding.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/tables.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/theme.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/thumbnails.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/tooltip.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/type.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/utilities.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/variables.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/bootstrap/wells.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/breadcrumbs.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/button-groups.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/buttons.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/carousel.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/close.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/code.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/component-animations.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/dropdowns.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/forms.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/glyphicons.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/grid.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/input-groups.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/jumbotron.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/labels.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/list-group.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/media.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/alerts.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/background-variant.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/border-radius.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/buttons.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/center-block.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/clearfix.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/forms.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/gradients.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/grid-framework.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/grid.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/hide-text.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/image.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/labels.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/list-group.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/nav-divider.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/nav-vertical-align.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/opacity.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/pagination.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/panels.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/progress-bar.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/reset-filter.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/reset-text.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/resize.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/responsive-visibility.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/size.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/tab-focus.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/table-row.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/text-emphasis.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/text-overflow.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/mixins/vendor-prefixes.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/modals.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/navbar.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/navs.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/normalize.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/pager.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/pagination.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/panels.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/popovers.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/print.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/progress-bars.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/responsive-embed.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/responsive-utilities.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/scaffolding.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/tables.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/theme.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/thumbnails.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/tooltip.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/type.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/utilities.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/variables.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/less/wells.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBoard.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBoard.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBoardSuccess.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBoardSuccess.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addTopic.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addTopic.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listAllBoards.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listAllBoards.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listBoardTopics.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listBoardTopics.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listSearchTopics.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listSearchTopics.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listTopicPosts.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listTopicPosts.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/setBoardManager.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/setBoardManager.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userLockManage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userLockManage.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/signin.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/.jscsrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/affix.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/alert.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/button.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/collapse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/dropdown.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/modal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/popover.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/scrollspy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tab.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/unit/.jshintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/unit/affix.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/unit/alert.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/unit/button.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/unit/carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/unit/collapse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/unit/dropdown.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/unit/modal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/unit/phantom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/unit/popover.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/unit/scrollspy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/unit/tab.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/unit/tooltip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/unit/transition.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/vendor/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/vendor/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/vendor/qunit.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/vendor/qunit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/visual/affix-with-sticky-footer.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/visual/affix.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/visual/alert.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/visual/button.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/visual/carousel.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/visual/collapse.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/visual/dropdown.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/visual/modal.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/visual/popover.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/visual/scrollspy.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/visual/tab.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tests/visual/tooltip.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/tooltip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap/transition.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/vendor/jquery-1.10.2.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/vendor/jquery-3.2.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/vendor/modernizr-3.5.0.min.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT.war" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/WEB-INF/classes/ThisIsUsCommunity-service.xml" afterPath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/WEB-INF/classes/ThisIsUsCommunity-service.xml" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/img/boy.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/img/girl.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/.csscomb.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/.csslintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/alerts.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/badges.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/__main.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/_navbar.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/_variables.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/alerts.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/badges.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/bootstrap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/bootstrap.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/breadcrumbs.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/button-groups.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/buttons.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/carousel.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/close.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/code.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/component-animations.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/dropdowns.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/forms.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/glyphicons.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/grid.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/input-groups.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/jumbotron.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/labels.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/list-group.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/media.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/mixins.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/modals.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/navbar.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/navs.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/normalize.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/pager.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/pagination.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/panels.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/popovers.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/print.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/progress-bars.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/responsive-utilities.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/scaffolding.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/tables.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/theme.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/thumbnails.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/tooltip.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/type.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/utilities.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/variables.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/bootstrap/wells.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/breadcrumbs.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/button-groups.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/buttons.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/carousel.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/close.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/code.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/component-animations.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/dropdowns.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/forms.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/glyphicons.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/grid.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/input-groups.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/jumbotron.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/labels.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/list-group.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/media.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/alerts.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/background-variant.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/border-radius.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/buttons.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/center-block.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/clearfix.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/forms.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/gradients.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/grid-framework.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/grid.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/hide-text.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/image.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/labels.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/list-group.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/nav-divider.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/nav-vertical-align.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/opacity.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/pagination.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/panels.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/progress-bar.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/reset-filter.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/reset-text.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/resize.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/responsive-visibility.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/size.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/tab-focus.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/table-row.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/text-emphasis.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/text-overflow.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/mixins/vendor-prefixes.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/modals.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/navbar.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/navs.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/normalize.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/pager.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/pagination.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/panels.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/popovers.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/print.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/progress-bars.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/responsive-embed.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/responsive-utilities.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/scaffolding.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/tables.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/theme.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/thumbnails.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/tooltip.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/type.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/utilities.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/variables.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/less/wells.less" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/login.jsp" afterPath="$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/login.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ThisIsUsCommunity-service.xml" afterPath="$PROJECT_DIR$/target/classes/ThisIsUsCommunity-service.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/Command line test.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/classes.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/groups.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/main.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/methods-alphabetical.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/methods-not-run.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/methods.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/reporter-output.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/testng-failed.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/testng.xml.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Command line suite/toc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -349,66 +143,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <file leaf-file-name="respond.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/vendor/respond.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addTopic.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addTopic.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="background.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/img/background.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/img/logo.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listAllBoards.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listAllBoards.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1314">
-              <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/web/RegisterController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="40" column="93" lean-forward="true" selection-start-line="40" selection-start-column="93" selection-end-line="40" selection-end-column="93" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/img/user.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/img/user.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setBoardManager.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/setBoardManager.jsp">
+      <file leaf-file-name="plugins.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/plugins.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -417,21 +175,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fail.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fail.jsp">
+      <file leaf-file-name="addBoardSuccess.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBoardSuccess.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="522">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <file leaf-file-name="addBoard.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBoard.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="48" column="81" lean-forward="false" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="81" />
+            <state relative-caret-position="2268">
+              <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -502,35 +260,35 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/includeTop.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/web/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/PageBar.tag" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBoardSuccess.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fail.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listToipcPosts.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/dao/PostDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dao/TopicDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBoard.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addTopic.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/setBoardManager.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userLockManage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/dao/BaseDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cons/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/web/ForumManagerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/domain/Topic.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listSearchTopics.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listTopicPosts.jsp" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/20abbd13-4aad-4034-a90f-de13356e25ba/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/domain/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ThisIsUsCommunity-dao.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listBoardTopics.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/web/RegisterController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ThisIsUsCommunity-service.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/web/BoardManageController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listAllBoards.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userLockManage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/setBoardManager.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listTopicPosts.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listSearchTopics.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listBoardTopics.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listAllBoards.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBoardSuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBoard.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addTopic.jsp" />
       </list>
     </option>
   </component>
@@ -783,6 +541,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -868,7 +630,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThisIsUsCommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThisIsUsCommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThisIsUsCommunity" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThisIsUsCommunity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThisIsUsCommunity" type="b2602c69:ProjectViewProjectNode" />
@@ -937,21 +716,12 @@
             </path>
             <path>
               <item name="ThisIsUsCommunity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThisIsUsCommunity" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThisIsUsCommunity" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1236,6 +1006,7 @@
       <workItem from="1528899342965" duration="176000" />
       <workItem from="1528941760810" duration="1127000" />
       <workItem from="1528961901044" duration="532000" />
+      <workItem from="1528962656233" duration="731000" />
     </task>
     <servers />
   </component>
@@ -1272,7 +1043,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195282000" />
+    <option name="totallyTimeSpent" value="196013000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1284,7 +1055,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="24" width="1857" height="1092" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32359082" sideWeight="0.47766134" order="0" side_tool="true" content_ui="tabs" />
@@ -1298,7 +1069,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20752688" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="86" y="359" width="1813" height="358" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268817" sideWeight="0.42801985" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32672232" sideWeight="0.42801985" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1307,7 +1078,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3382046" sideWeight="0.49548534" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13568671" sideWeight="0.54843307" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13678986" sideWeight="0.54843307" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26636568" sideWeight="0.37634408" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16712631" sideWeight="0.45156696" order="8" side_tool="true" content_ui="tabs" />
@@ -1398,7 +1169,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listSearchTopics.jsp</url>
-          <line>112</line>
+          <line>110</line>
           <properties />
           <option name="timeStamp" value="84" />
         </line-breakpoint>
@@ -1478,147 +1249,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dao/TopicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/dao/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userLockManage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="70" column="23" lean-forward="false" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBoard.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-251">
-          <caret line="98" column="23" lean-forward="false" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/service/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/ThisIsUsCommunity-1.0-SNAPSHOT/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/MainPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dao/LoginLogDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/LoginLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="63" column="50" lean-forward="false" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schema/sampledb.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4248">
-          <caret line="236" column="28" lean-forward="false" selection-start-line="236" selection-start-column="28" selection-end-line="236" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ThisIsUsCommunity-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/BaseDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/domain/Board.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="e#631#637#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1634,7 +1268,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1651,13 +1284,6 @@
         <state relative-caret-position="-28">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBoardSuccess.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1701,14 +1327,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listBoardTopics.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2862">
-          <caret line="159" column="61" lean-forward="false" selection-start-line="159" selection-start-column="61" selection-end-line="159" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1774,31 +1392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/switch.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="78" lean-forward="false" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/setBoardManager.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1806,22 +1399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" column="81" lean-forward="false" selection-start-line="48" selection-start-column="78" selection-end-line="48" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1846,18 +1423,222 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listAllBoards.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/web/RegisterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1314">
-          <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        <state relative-caret-position="293">
+          <caret line="40" column="93" lean-forward="false" selection-start-line="40" selection-start-column="93" selection-end-line="40" selection-end-column="93" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/web/RegisterController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="40" column="93" lean-forward="true" selection-start-line="40" selection-start-column="93" selection-end-line="40" selection-end-column="93" />
+        <state relative-caret-position="126">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/PageBar.tag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userLockManage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/switch.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/setBoardManager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listTopicPosts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2538">
+          <caret line="141" column="0" lean-forward="true" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listSearchTopics.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listBoardTopics.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/listAllBoards.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2952">
+          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBoard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2268">
+          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/signin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/includeTop.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/vendor/jquery-1.10.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2322">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/vendor/jquery-3.2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/vendor/modernizr-2.6.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/vendor/modernizr-3.5.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/vendor/respond.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addTopic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBoardSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
