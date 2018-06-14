@@ -28,7 +28,6 @@
     <![endif]-->
     <script src="<c:url value=" /js/vendor/respond.min.js" />"></script>
 </head>
-</head>
 <body>
 
 
